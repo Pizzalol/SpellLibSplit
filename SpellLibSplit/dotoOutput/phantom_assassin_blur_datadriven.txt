@@ -1,0 +1,29 @@
+"phantom_assassin_blur_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"bonus_evasion"				"20 30 40 50"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"transparency_fade"			"0.75"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"radius"					"1600 1600 1600 1600"
+		}
+	}
+}
+

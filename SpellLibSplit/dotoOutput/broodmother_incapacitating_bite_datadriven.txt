@@ -1,0 +1,30 @@
+"broodmother_incapacitating_bite_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"miss_chance"			"30 40 50 60"
+		}
+		"02"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"bonus_movespeed"		"-10 -20 -30 -40"
+		}
+		"03"
+		{
+			"var_type"				"FIELD_FLOAT"
+			"duration"			"2.0 2.0 2.0 2.0"
+		}
+	}
+}
+

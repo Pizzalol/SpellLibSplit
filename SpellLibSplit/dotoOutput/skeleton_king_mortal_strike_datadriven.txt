@@ -1,0 +1,36 @@
+"skeleton_king_mortal_strike_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"crit_mult"					"150 200 250 300"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"crit_chance"				"15"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"hp_drain"					"20"
+		}
+		"04"
+		{
+			"var_type"					"FIELD_FLOAT"
+			"drain_duration"			"7.0"
+		}
+	}
+}
+

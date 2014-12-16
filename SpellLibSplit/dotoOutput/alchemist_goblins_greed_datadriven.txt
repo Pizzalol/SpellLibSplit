@@ -1,0 +1,34 @@
+"alchemist_goblins_greed_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+	// Special	
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"duration"				"25"
+		}
+		"02"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"bonus_gold"			"4 6 8 10"
+		}
+		"03"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"bonus_bonus_gold"		"1 2 3 4"
+		}
+		"04"
+		{
+			"var_type"				"FIELD_INTEGER"
+			"bonus_gold_cap"		"30"
+		}
+	}
+}
+

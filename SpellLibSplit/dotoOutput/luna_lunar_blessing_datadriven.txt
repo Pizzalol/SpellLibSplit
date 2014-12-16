@@ -1,0 +1,29 @@
+"luna_lunar_blessing_datadriven"
+{
+	// General
+	//-------------------------------------------------------------------------------------------------------------
+	"BaseClass"				"ability_datadriven"
+	"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+	
+	// Special
+	//-------------------------------------------------------------------------------------------------------------
+	"AbilitySpecial"
+	{
+		"01"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"radius"					"900 900 900 900"
+		}
+		"02"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"bonus_damage"				"14 22 30 38"
+		}
+		"03"
+		{
+			"var_type"					"FIELD_INTEGER"
+			"bonus_night_vision"		"1000 1000 1000 1000"
+		}
+	}
+}
+
